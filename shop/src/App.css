@@ -1,0 +1,88 @@
+label {
+  background: none;
+  border-radius: 0px 50px 50px 0px;
+  width: 300px;
+  padding: 10px;
+  color: #131f60;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+input[type="radio"] {
+  visibility: hidden;
+}
+
+input {
+  outline: none;
+}
+
+/* input:checked ~ label {
+  border-left: 5px solid #9c0edf;
+} */
+
+/* input:hover ~ label {
+  background: gray;
+} */
+
+.btn {
+  background: linear-gradient(180deg, #b947f2 0%, #5a3af8 100%);
+  color: rgb(219, 202, 255);
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.scrollcontainer {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.scrollcontainer::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+.react-calendar__navigation {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+.react-calendar__navigation__prev2-button {
+  display: none;
+}
+
+.react-calendar__navigation__next2-button {
+  display: none;
+}
+
+abbr {
+  text-decoration: none;
+}
+
+.react-calendar__tile:focus {
+  background-color: #ca68f7;
+  color: white;
+  border-radius: 5px;
+}
+
+.today {
+  background-color: #9c0edf;
+  color: white;
+  border-radius: 5px;
+}
+
+input[type="checkbox"] {
+  accent-color: black;
+  width: 15px;
+  height: 15px;
+  border-radius: 8px;
+  content: "";
+}
+
+.scrollcontainer {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.scrollcontainer::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
